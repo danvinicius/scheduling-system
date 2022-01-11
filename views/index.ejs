@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendário de consultas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <%- include('partials/header.ejs')%>
+      <div id="calendar"></div>
+    </div>
+    <script src="main.min.js"></script>
+    <script>
+      const element = document.getElementById("calendar");
+      //initialView é o formato que o fullCalendar vai desenhar o calendário
+      //locale é o idioma
+      //events é a rota que deve retornar um json com id, titulo, start e end dos agendamentos
+      const calendar = new FullCalendar.Calendar(element, {
+        initialView: "dayGridMonth",
+        locale: "pt-br",
+        events: "getcalendar",
+        eventClick: function (info) {
+          window.location.href = `/appointment/${info.event.id}`;
+        },
+      });
+      calendar.render();
+    </script>
+  </body>
+</html>
