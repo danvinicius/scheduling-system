@@ -1,8 +1,8 @@
-## Sobre
-Pequeno sistema de agendamento de consultas clínicas com API feita em NodeJS e ExpressJs,<br/>
-MongoDB como banco de dados e EJS com Bootstrap no front-end.<br/>
-Também utilizei a biblioteca FullCalendar para renderizar os agendamentos em um calendário.<br/><br/>
-Projeto feito durante o curso <a href="https://www.udemy.com/course/formacao-nodejs/">Formação NodeJS</a>, do Professor Victor Lima.<br/>
+## About
+Small clinical appointment scheduling system with API made in NodeJS/ExpressJs,<br/>
+MongoDB as database and EJS with Bootstrap on the front end.<br/>
+I also used the FullCalendar library to render the schedules in a calendar.<br/><br/>
+Project made during the course <a href="https://www.udemy.com/course/formacao-nodejs/">Formação NodeJS</a>, by Professor Victor Lima.<br/>
 
 <div style="display: inline_block"><br>
     <img align="center" alt="Javascript" title="Javascript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
@@ -13,34 +13,32 @@ Projeto feito durante o curso <a href="https://www.udemy.com/course/formacao-nod
 </div>
 <br/>
 
-## Status do projeto
+## Project status
 <h4> 
-    ✅ Finalizado ✅
+    ✅ Finished ✅
 </h4>
 <br/>
 
-## Rodando a aplicação no VSCode
+## Running the app on VSCode
 ```bash
-# Clone este repositório
+# Clone this repository
 $ git clone <https://github.com/danvinicius/sistema-agendamento.git>
 
-# Entre na pasta do projeto no terminal/cmd
+# Enter the project folder on terminal/cmd
 $ cd sistema-agendamento
 
-# Abra a aplicação no VSCode
+# Open the app on VSCode
 $ code .
 
-# Instale todas as dependências
+# Install all dependencies
 $ npm install
 
-# Inicie a aplicação
+# Start the app
 $ npm start
 
-# No seu navegador, entre na porta 8081
+# On your browser, open the port 8081
 $ URL: localhost:8081/
 
 ```
 <br/>
-Baixe o <a href="https://git-scm.com/">GIT</a> e o <a href="https://nodejs.org/en/">NodeJS</a> na sua máquina.
-<br/><br/>
-<b>Autor:</b> <a href="https://beacons.ai/danvinicius">Daniel Vinícius</a>
+Install <a href="https://git-scm.com/">GIT</a> and <a href="https://nodejs.org/en/">NodeJS</a> on your computer.
