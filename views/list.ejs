@@ -27,7 +27,7 @@
         <button class="btn btn-success" type="submit">Buscar</button>
       </form>
       <hr />
-      <%if(appos.length > 0){%>
+      <%if(appos.length){%>
       <table class="table table-hover">
         <thead>
           <tr>
@@ -45,8 +45,8 @@
               <a href="/appointment/<%=appo._id%>"><%=appo.name%></a>
             </td>
             <td><%=appo.cpf%></td>
-            <td><%=appo.date.toLocaleDateString("pt-br")%></td>
-            <td><%=appo.time.toLocaleString("pt-br")%></td>
+            <td><%=new Date(appo.date).toLocaleDateString()%></td>
+            <td><%=appo.time%></td>
             <td><%=appo.description%></td>
           </tr>
           <%})%>

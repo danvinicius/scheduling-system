@@ -32,7 +32,7 @@
 
         <div class="card-footer">
           <%if (appo.finished == false){%>
-          <form method="POST" action="/finish">
+          <form method="POST" action="/appointment/finish">
             <input type="hidden" name="id" value="<%=appo._id%>" />
             <button class="btn btn-danger" type="submit">
               Finalizar consulta
