@@ -1,5 +1,5 @@
 ## About
-Small clinical appointment scheduling system with API made in NodeJS/ExpressJs/Typescript,<br/>
+Small clinical appointment scheduling system made in NodeJS/ExpressJs/Typescript,<br/>
 MongoDB as database and EJS with Bootstrap on the front end.<br/>
 I also used the FullCalendar library to render the schedules in a calendar.<br/><br/>
 Project made during the course <a href="https://www.udemy.com/course/formacao-nodejs/">Formação NodeJS</a>, by Professor Victor Lima.<br/>
